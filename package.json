@@ -1,0 +1,12 @@
+{
+  "name": "tp",
+  "version": "1.0.0",
+  "description": "Node js practical examples",
+  "main": "index.js",
+  "scripts": {
+    "tp01": "node tps/tp01.js",
+    "tp02": "node tps/tp02.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
