@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "tp01": "node tps/tp01.js",
-    "tp02": "node tps/tp02.js"
+    "tp02": "node tps/tp02.js",
+    "tp03": "node tps/tp03.js"
   },
   "author": "",
   "license": "ISC"
