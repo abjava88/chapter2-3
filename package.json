@@ -6,8 +6,14 @@
   "scripts": {
     "tp01": "node tps/tp01.js",
     "tp02": "node tps/tp02.js",
-    "tp03": "node tps/tp03.js"
+    "tp03": "node tps/tp03.js",
+    "tp04": "node tps/tp04.js",
+    "tp05": "node tps/tp05.js",
+    "tp06": "node tps/tp06.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
 }
