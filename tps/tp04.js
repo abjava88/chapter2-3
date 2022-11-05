@@ -1,10 +1,8 @@
-const fs = require('fs');
-fs.readFile('/file.json', (err, data) => {
-  if (err) {
-    // handle error
-    console.log(err);
-    return;
-  }
-  // no errors, process data
-  console.log(data);
-});
+const EventEmitter = require('events') // importer le module events 
+const eventEmitter = new EventEmitter() // instancier un objet de type EventEmitter
+eventEmitter.on('start', () => {
+  console.log('started');
+}); // Définir le type d’évènement et l’action à exécuter 
+
+//lancer un évènement  
+eventEmitter.emit('start');

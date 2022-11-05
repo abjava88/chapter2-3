@@ -8,8 +8,7 @@
     "tp02": "node tps/tp02.js",
     "tp03": "node tps/tp03.js",
     "tp04": "node tps/tp04.js",
-    "tp05": "node tps/tp05.js",
-    "tp06": "node tps/tp06.js"
+    "tp05": "node tps/tp05.js"
   },
   "author": "",
   "license": "ISC",
